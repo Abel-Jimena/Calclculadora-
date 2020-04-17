@@ -1,0 +1,23 @@
+body
+{
+	background:darkred;
+	font-family:'Times News Roman'
+}
+h1.titulo
+{
+	font-family: Times News Roman;
+	font-size:50px;
+	color: snow;
+}
+header
+{
+	background: skyblue;
+}
+#N1
+{
+	font-size: 17px;
+}
+#N2
+{
+	font-size: 17px;
+}

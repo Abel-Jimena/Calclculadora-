@@ -1,4 +1,4 @@
-<?PHP
+<?php
 $cantidad1=$_POST["N1"];
 $cantidad2=$_POST["N2"];
 
@@ -20,3 +20,4 @@ if ($OPERACION=="Division")
 {
 	echo "Resultado: ".($cantidad1=$_POST/$cantidad2=$_POST)
 }
+?>
