@@ -1,0 +1,22 @@
+<?PHP
+$cantidad1=$_POST["N1"];
+$cantidad2=$_POST["N2"];
+
+$OPERACION=$_POST["Operacion"]; 
+
+if ($OPERACION=="Suma")
+{
+	echo "Resultado: ".($cantidad1=$_POST+$cantidad2=$_POST)
+}
+if ($OPERACION=="Resta")
+{
+	echo "Resultado: ".($cantidad1=$_POST-$cantidad2=$_POST)
+}
+if ($OPERACION=="Multiplicacion ")
+{
+	echo "Resultado: ".($cantidad1=$_POST*$cantidad2=$_POST)
+}
+if ($OPERACION=="Division")
+{
+	echo "Resultado: ".($cantidad1=$_POST/$cantidad2=$_POST)
+}
